@@ -1,0 +1,410 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+* ::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  max-width: 1920px;
+  background: #fff;
+}
+
+/* main-section start */
+.background-image {
+  height: 100%;
+  background-image: url(../images/main-image.png);
+  background-size: 1170px 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.main-container {
+  max-width: 1170px;
+  height: 100vh;
+  margin: 0 auto;
+}
+.main-header {
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.header-menu {
+  display: flex;
+}
+.menu-item {
+  margin-left: 120px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  padding-bottom: 10px;
+}
+a.menu-item:hover {
+  border-bottom: 3px solid;
+  color: rgb(98, 98, 98);
+}
+.main-img img {
+  width: 1170px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/* main-section  and */
+
+/* weekend-section start */
+.weekend-section {
+  margin-top: 100px;
+  background: #fff;
+  background-size: 1920px 100%;
+}
+.weekend-section-container {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.weekend-section-suptitle {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+}
+
+.weekend-section-title {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  margin-top: 25px;
+}
+
+.weekend-section-text {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  margin-top: 35px;
+}
+.weekend-sektion-subtitle {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.weekend-photo {
+  max-width: 990px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.weekend-img-1 {
+  max-width: 416px;
+  margin-top: 130px;
+}
+
+.weekend-photo-suptitle {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.weekend-photo-title {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  margin-top: 30px;
+}
+
+.weekend-photo-text {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  margin-top: 40px;
+}
+
+/* weekend-section and */
+
+/* section- form-start */
+
+.section-form {
+  background-color: #f0f0f0;
+  max-width: 1920px;
+  margin-top: 130px;
+}
+.section-form-sing {
+  max-width: 450px;
+  margin: 0 auto;
+}
+.section-form-title {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+}
+.form-sing {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  max-width: 400px;
+  margin-top: 80px;
+  text-align: center;
+  padding-bottom: 80px;
+  padding-right: 290px;
+  margin-left: 100px;
+}
+.form-input {
+  padding-right: 100px;
+  border: none;
+  border-bottom: solid 3px;
+  color: rgb(98, 98, 98);
+  background-color: #f0f0f0;
+  padding-bottom: 15px;
+}
+.form-button {
+  border: none;
+}
+/* section- form-and */
+
+/* section-top-song start */
+
+.section-top-song-container {
+  max-width: 990px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.section-top-song-container img {
+  width: 470px;
+}
+.top-song-suptitle {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.top-song-title {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  margin-top: 30px;
+}
+
+.top-song-text {
+  width: 470px;
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  margin-top: 40px;
+  margin-bottom: 168px;
+}
+.top-song-button-container {
+  max-width: 990px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.top-song-button {
+  padding: 20px 35px;
+  margin-bottom: 100px;
+}
+/* section-top-song and */
+
+/* footer start */
+.footer {
+  background: #f0f0f0;
+  display: flex;
+  max-width: 1920px;
+  height: 100px;
+}
+.footer-nav-terms {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(0, 0, 0);
+
+  position: absolute;
+
+  margin-top: 45px;
+}
+.nav-terms {
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.footer-container {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-nav-follow {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(0, 0, 0);
+
+  margin-top: 45px;
+}
+.privasy {
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.privasy :last-child {
+  margin-right: 0;
+}
+.nav-privasy {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/* footer and */
